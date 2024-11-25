@@ -1,0 +1,26 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "this the i want to create the electron app this the trile that i used for learing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ashenafidejene/electron-app.git"
+  },
+  "keywords": [
+    "electron",
+    "js",
+    "react",
+    "and",
+    "sqlite"
+  ],
+  "author": "ashenafi Dejene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashenafidejene/electron-app/issues"
+  },
+  "homepage": "https://github.com/Ashenafidejene/electron-app#readme"
+}
