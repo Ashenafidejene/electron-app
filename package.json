@@ -2,9 +2,11 @@
   "name": "electron-app",
   "version": "1.0.0",
   "description": "this the i want to create the electron app this the trile that i used for learing",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"electron . ",
+    "dev:watch":"npx electronmon --trace-warning ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Ashenafidejene/electron-app/issues"
   },
-  "homepage": "https://github.com/Ashenafidejene/electron-app#readme"
+  "homepage": "https://github.com/Ashenafidejene/electron-app#readme",
+  "dependencies": {
+    "electron": "^33.2.0"
+  }
 }
